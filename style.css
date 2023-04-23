@@ -8,6 +8,7 @@ body {
     #fffdfe 20%,
     #fff7f8 10%
   );
+  box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
 }
 .head {
@@ -51,17 +52,23 @@ body {
 .main {
   padding-left: 80px;
   margin-top: 50px;
+  opacity: 0.5;
 }
 .main input {
   border-radius: 25px;
-  padding: 5px 45px;
-  padding-left: 10px;
+  border: 1px solid;
+  padding: 5px 10px 5px 50px;
+  padding-left: 15px;
+  width: 60%;
   font-size: 15px;
   opacity: 0.5;
+  outline: none;
+  letter-spacing: 1px;
+  position: relative;
 }
-.fa-solid {
-  margin: 0;
-  font-size: 20px;
-  padding-left: 0 10px;
+.main i {
+  font-size: 37px;
   color: #f5afaf;
+  position: absolute;
+  right: 66%;
 }
